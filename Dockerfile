@@ -1,4 +1,4 @@
-FROM linuxserver/code-server:4.135.0
+FROM linuxserver/code-server:4.137.0
 
 RUN apt-get update && apt-get -y install python3 python3-pip sshpass
 
